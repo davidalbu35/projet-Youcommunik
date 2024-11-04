@@ -1,0 +1,409 @@
+body{
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-top: 0%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-family: roboto;
+    
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; 
+    padding: 5px;
+    height: 45px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    margin-left: 10px; 
+}
+
+.navigation .logo img {
+    height: 20px; 
+    margin-bottom: 20px;
+    
+}
+
+.menu-items img {
+    height: 20px;
+    margin-right: 5px; 
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 7px; 
+}
+
+
+
+
+/* section 1 */
+
+
+.section_01{
+    background-color: #334D5C;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: center;
+    
+}
+
+.section_01 img{
+    height: 50px;
+    
+}
+
+
+
+
+.section_01 .titre_01{
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+
+/* section 2 */
+
+.section_02{
+    height: 140px;
+}
+
+
+
+
+
+.eclosion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.section_02 .eclosion{
+    height: 35px;
+    width: 120px;
+    background-color: #334D5C ;
+    color: white;
+    margin-left: 35%;
+    
+}
+
+
+.image_02 img{
+    height: 90px;
+    
+}
+
+
+.image_02{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.image_02 p{
+    font-size: 9px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* section 3 */
+
+
+
+.section_03 ul {
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+/* Style pour chaque élément de liste */
+.section_03 ul li {
+    display: flex;
+    /* pour mettre les logo au dessus du texte */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px; 
+}
+
+
+.section_03 ul li img {
+    width: 30px; 
+    margin-bottom: 5px; 
+}
+
+
+.section_03 ul li span {
+    font-size: 9px;
+    color: #333; 
+}
+
+
+/* section 4 */
+
+.section_04{
+    height: 140px;
+}
+
+.section_04 .evolution{
+    height: 35px;
+    width: 120px;
+    background-color: #334D5C ;
+    color: white;
+    margin-left: 35%;
+    text-align: center;
+    
+
+
+}
+
+
+
+
+.image_03{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_03 img{
+    height: 90px;
+}
+
+.image_03 p{
+    margin-top: 20px;
+    font-size: 9px;
+}
+
+
+/* section 5*/
+
+
+.section_05{
+    background-color: #EAE3D6 ;
+
+}
+
+
+.section_05 ul {
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.section_05 ul li{
+    list-style: none;
+    display: flex;
+    /* pour mettre les logo au dessus du texte */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px; 
+}
+
+
+.section_05 ul li img{
+    width: 30px;
+    display: flex;
+    
+}
+
+
+.section_05 ul li span {
+    font-size: 9px;
+    color: #333; 
+}
+
+
+/* section 6 */
+
+.section_06{
+    height: 140px;
+}
+
+.section_06 .envol{
+    height: 35px;
+    width: 120px;
+    background-color: #334D5C ;
+    color: white;
+    margin-left: 35%;
+    text-align: center;
+    
+
+
+}
+
+
+.image_04{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_04 img{
+    height: 90px;
+}
+
+.image_04 p{
+    margin-top: 20px;
+    font-size: 9px;
+}
+
+
+
+/* section 6 */
+
+
+.section_07{
+    background-color: #EAE3D6 ;
+
+}
+
+
+.section_07 ul {
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.section_07 ul li{
+    list-style: none;
+    display: flex;
+    /* pour mettre les logo au dessus du texte */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px; 
+}
+
+
+.section_07 ul li img{
+    width: 30px;
+    display: flex;
+    
+}
+
+
+.section_07 ul li span {
+    font-size: 9px;
+    color: #333; 
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #393A3B;
+    height: 120px;
+}
+
+.span{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    padding-top: 15px;
+    
+}
+
+.span span{
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+
+
+.packs img {
+    height: 20px;
+    padding: 3px;
+    
+}
+
+.packs{
+    
+    margin-left: 30px;
+    
+}
+
+.outils{
+    margin-right: 25px;
+    
+   
+}
+
+.outils img{
+    height: 20px;
+    padding: 3px;
+}
+
+
+.socialmedia img{
+    
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
